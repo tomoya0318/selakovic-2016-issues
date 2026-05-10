@@ -1,0 +1,10 @@
+{
+  "name": "selakovic-vendor-request-403",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 issue RequestIssues/issue_403 (request@2.12.1 SUT)",
+  "dependencies": {
+    "form-data": "0.0.10",
+    "mime": "1.2.11"
+  }
+}

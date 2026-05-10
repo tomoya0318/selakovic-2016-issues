@@ -1,0 +1,15 @@
+{
+  "name": "selakovic-vendor-mocha-763",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 issue MochaIssues/issue_763 (mocha@1.8.2 SUT)",
+  "dependencies": {
+    "commander": "0.6.1",
+    "growl": "1.7.0",
+    "jade": "0.26.3",
+    "diff": "1.0.2",
+    "debug": "4.4.3",
+    "mkdirp": "0.3.3",
+    "ms": "0.3.0"
+  }
+}
