@@ -1,0 +1,9 @@
+{
+  "name": "selakovic-vendor-backbone",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 BackboneIssues (4 issues: 707/1097/1766/2858, underscore@1.13.8 satisfies all backbone version ranges)",
+  "dependencies": {
+    "underscore": "1.13.8"
+  }
+}

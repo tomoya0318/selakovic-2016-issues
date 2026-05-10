@@ -1,0 +1,60 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      policyfile:
+        specifier: 0.0.4
+        version: 0.0.4
+      redis:
+        specifier: 0.6.6
+        version: 0.6.6
+      socket.io-client:
+        specifier: 0.8.5
+        version: 0.8.5
+
+packages:
+
+  policyfile@0.0.4:
+    resolution: {integrity: sha512-UfDtlscNialXfmVEwEPm0t/5qtM0xPK025eYWd/ilv89hxLIhVQmt3QIzMHincLO2MBtZyww0386pt13J4aIhQ==}
+
+  redis@0.6.6:
+    resolution: {integrity: sha512-OJzEn1xq8kmuNzbAl6IUgQV/0egYNtQh6gtzp2bjFfgPsrabC8s/Ap5RSheUFjFbQYR+hezKJwsyJEARazNDEQ==}
+
+  socket.io-client@0.8.5:
+    resolution: {integrity: sha512-G524iiMKCLMgIJ4DN+wyJ3YC/19iD1qv7P3uBubWttKDW8o/SlGf+Fze5OkLhQ3VlgluZC3RjSH9UJi61OAdlA==}
+    engines: {node: '>= 0.4.0'}
+
+  uglify-js@1.0.6:
+    resolution: {integrity: sha512-XhSNAouwlyJ0q6sjqC8OElOjAjZ5cUCN1rzXyvUYTNA0qwPrTBf0H3KsZRxhppBsEOfpbzE9TKWvxwjdsNy/Rg==}
+    hasBin: true
+
+  websocket-client@1.0.0:
+    resolution: {integrity: sha512-dCB42rbFapp0xLQ0LFiyUiarCndaO+Dz0AvcJOFFU1j2cUmEKW9CLsGjmWaof4ueFPG+YxJT4L8Mldr+8GJ/yg==}
+    engines: {node: '>=0.1.98'}
+
+  xmlhttprequest@1.2.2:
+    resolution: {integrity: sha512-TRragYedEfx5AYsKwL82dI3+V1SdIgVnLGzxD6X3t4xhX5n7jT++i2ozKPc4iB+/SlS/4XZ/HtYlxdxP9g8UZg==}
+
+snapshots:
+
+  policyfile@0.0.4: {}
+
+  redis@0.6.6: {}
+
+  socket.io-client@0.8.5:
+    dependencies:
+      uglify-js: 1.0.6
+      websocket-client: 1.0.0
+      xmlhttprequest: 1.2.2
+
+  uglify-js@1.0.6: {}
+
+  websocket-client@1.0.0: {}
+
+  xmlhttprequest@1.2.2: {}

@@ -1,0 +1,11 @@
+{
+  "name": "selakovic-vendor-socketio-573",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 issue Socket.ioIssues/issue_573 (socket.io@0.8.5 SUT)",
+  "dependencies": {
+    "socket.io-client": "0.8.5",
+    "policyfile": "0.0.4",
+    "redis": "0.6.6"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "selakovic-vendor-request-1165",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 issue RequestIssues/issue_1165 (request@2.45.1 SUT — optionalDependencies omitted per ADR-0016 trigger)",
+  "dependencies": {
+    "bl": "0.9.5",
+    "caseless": "0.6.0",
+    "forever-agent": "0.5.2",
+    "form-data": "0.1.4",
+    "json-stringify-safe": "5.0.1",
+    "mime-types": "1.0.2",
+    "node-uuid": "1.4.8",
+    "qs": "1.2.2",
+    "tunnel-agent": "0.4.3"
+  }
+}
