@@ -1,0 +1,10 @@
+{
+  "name": "selakovic-vendor-ember-client",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 EmberIssues client <script src> (most issues load jquery@2.1.3 + handlebars@1.1.0 from CDN; issue_3174/issue_3288 override jquery to 1.7.x)",
+  "dependencies": {
+    "jquery": "2.1.3",
+    "handlebars": "1.1.0"
+  }
+}

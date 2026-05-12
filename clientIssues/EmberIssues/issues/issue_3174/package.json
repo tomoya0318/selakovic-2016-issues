@@ -1,0 +1,9 @@
+{
+  "name": "selakovic-vendor-ember-3174",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 EmberIssues/issue_3174 client <script src> (jquery@1.7.x — version conflict with the EmberIssues category jquery@2.1.3; handlebars@1.1.0 resolves from the parent)",
+  "dependencies": {
+    "jquery": "1.7.2"
+  }
+}

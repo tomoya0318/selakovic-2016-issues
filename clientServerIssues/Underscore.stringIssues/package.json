@@ -1,0 +1,9 @@
+{
+  "name": "selakovic-vendor-underscore-string-client",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 Underscore.stringIssues client <script src> (3 issues, all load jquery@2.1.3 from CDN)",
+  "dependencies": {
+    "jquery": "2.1.3"
+  }
+}
