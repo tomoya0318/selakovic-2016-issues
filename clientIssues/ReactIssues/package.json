@@ -1,0 +1,9 @@
+{
+  "name": "selakovic-vendor-react-client",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 ReactIssues client <script src> (5 issues, all load jquery@1.7.x from CDN)",
+  "dependencies": {
+    "jquery": "1.7.2"
+  }
+}
