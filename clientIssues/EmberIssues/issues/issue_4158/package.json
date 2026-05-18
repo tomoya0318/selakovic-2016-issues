@@ -1,0 +1,7 @@
+{
+  "name": "selakovic-ember-issue-4158",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.7.2"
+  } 
+} 
