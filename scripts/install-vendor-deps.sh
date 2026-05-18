@@ -33,7 +33,8 @@ fi
 # candidate setup):
 # - angular: shared category (27 issues, jquery@1.11.3)
 # - ember: shared category (jquery@2.1.3 + handlebars@1.1.0); issue_3174 /
-#   issue_3288 override jquery to 1.7.x (conflicts with the category 2.1.3)
+#   issue_3288 / issue_4158 override jquery to 1.7.x (conflicts with the
+#   category 2.1.3)
 # - react: shared category (5 issues, jquery@1.7.x)
 # - backbone: shared category (5 issues, underscore@1.8.3 + jquery@2.1.3)
 # - ejs / moment / node-lru-cache / underscore.string / underscore: shared
@@ -57,6 +58,7 @@ DIRS=(
   clientIssues/EmberIssues
   clientIssues/EmberIssues/issues/issue_3174
   clientIssues/EmberIssues/issues/issue_3288
+  clientIssues/EmberIssues/issues/issue_4158
   clientIssues/ReactIssues
   clientServerIssues/BackboneIssues
   clientServerIssues/EjsIssues
