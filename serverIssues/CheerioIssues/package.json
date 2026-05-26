@@ -2,11 +2,12 @@
   "name": "selakovic-vendor-cheerio",
   "version": "0.0.0",
   "private": true,
-  "description": "Vendor deps for Selakovic 2016 CheerioIssues (8 issues, cheerio@0.13.1 SUT, shared)",
+  "description": "Vendor deps for Selakovic 2016 CheerioIssues (8 issues, shared). 旧版 cheerio は underscore、新版 (issue_369 系) は lodash を require するため両方 vendor する。",
   "dependencies": {
     "htmlparser2": "3.4.0",
     "underscore": "1.5.2",
     "entities": "0.3.0",
-    "CSSselect": "0.4.1"
+    "CSSselect": "0.4.1",
+    "lodash": "3.10.1"
   }
 }
