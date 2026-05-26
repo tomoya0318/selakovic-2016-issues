@@ -1,0 +1,15 @@
+{
+  "name": "selakovic-vendor-mocha",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendor deps for Selakovic 2016 MochaIssues (mocha ~1.x SUT, shared)。mocha 本体が require する npm dep を宣言。",
+  "dependencies": {
+    "debug": "0.7.4",
+    "diff": "1.0.2",
+    "commander": "0.6.1",
+    "growl": "1.7.0",
+    "jade": "0.26.3",
+    "mkdirp": "0.3.3",
+    "ms": "0.3.0"
+  }
+}
