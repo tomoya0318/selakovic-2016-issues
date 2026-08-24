@@ -71,7 +71,7 @@ DIRS=(
 
 for d in "${DIRS[@]}"; do
   echo "==> $d"
-  (cd "$ROOT/$d" && pnpm install --frozen-lockfile)
+  (cd "$ROOT/$d" && pnpm install --frozen-lockfile --ignore-scripts)
 done
 
 echo
